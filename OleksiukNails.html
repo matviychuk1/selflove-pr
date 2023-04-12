@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OleksiukNails</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="hamburger-on">
+            <p><a href="#">oleksiuk nails</a></p>
+        </div>
+        <ul class="nav-links">
+            <li class="nav-links-list"><a class="nav-links-href" href="#about-us">про нас</a></li>
+            <li class="nav-links-list"><a class="nav-links-href" href="#my-works">мої роботи</a></li>
+            <li class="nav-links-list"><a class="nav-links-href" href="./html/prices.html">ціни</a></li>
+            <li class="nav-links-list"><a class="logo" href="./OleksiukNails.html">oleksiuk nails</a>
+            </li>
+            <li class="nav-links-list"><a class="nav-links-href" href="#reviews">відгуки</a></li>
+            <li class="nav-links-list"><a class="nav-links-href" href="./html/contact.html">контакти</a></li>
+            <li class="nav-links-list"><a class="nav-links-href" href="#">
+                <button class="header-nav-btn sticky">
+                    підписатись
+                        <span class="first"></span>
+                        <span class="second"></span>
+                        <span class="third"></span>
+                        <span class="fourth"></span>
+                </button>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <section class="featured beauty-treatments-main">
+        <div class="card">
+            <h2>мистецтво</h2>
+            <h3>втілене в манікюрі</h3>
+            <div>                
+                <a href="#primary" class="scroll" onclick="showScroll('#test-scroll')"></a>
+            </div>
+        </div>
+    </section>
+    <section id="about-us">
+        <div class="intmed-block" id="test-scroll">
+            <div class="intmed-block-half ">
+                <div class="intmed-block-text derma-info">
+                    <h3>Привіт, мене звати <br><span class="intmed-block-text-head">Христина Олексюк</span></h3>
+                    <p>Я ліцензований нейл-майстер з великим досвідом роботи. Щиро піклуюсь про здоров’я і красу кожного свого клієнта, обожнюю бути в курсі всіх останніх тенденцій!</p>
+                    <div class="intmed-block-subscribe-btn">
+                        <a href="#" class="button-sub">підписатись</a>
+                    </div>
+                </div>
+            </div>
+            <div class="intmed-block-image">
+                <img src="./img/aboutInfo.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="beauty-inner">
+            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, nam molestiae. Quidem asperiores vel assumenda.</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis hic recusandae unde illo voluptate pariatur, rerum qui ab corrupti nobis provident dolores vitae? Necessitatibus cumque ipsum repellat accusantium, est corporis, obcaecati pariatur non laborum architecto quasi suscipit voluptatibus voluptatum ab?</p>
+        </div>
+    </section>
+    <section class="slider_container" id="my-works">
+        <h4>ГАЛЕРЕЯ РОБІТ</h4>
+            <div class="container">
+                <div class="swiper card_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img_box"><img src="./img/slider/slide1.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box"><img src="./img/slider/slide2.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box"><img src="./img/slider/slide1.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box"><img src="./img/slider/slide2.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box"><img src="./img/slider/slide1.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box"><img src="./img/slider/slide2.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box"><img src="./img/slider/slide1.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box"><img src="./img/slider/slide2.jpg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+    </section>
+    <section class="popular-question">
+        <h3 class="acordeon-title">НАЙПОПУЛЯРНІШІ ЗАПИТАННЯ</h3>
+        <div class="acordeon">
+            <div class="acor-container">         
+                <input type="checkbox" name="chacor" id="chacor1" checked="checked" />
+                <label for="chacor1">Найпопулярніше питання номер №1</label>
+                <div class="acor-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+                <input type="checkbox" name="chacor" id="chacor2" />
+                <label for="chacor2">Найпопулярніше питання номер №2</label>
+                <div class="acor-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est maiores quas dignissimos corrupti quibusdam quae ad, animi beatae voluptatum ipsa vero rem dicta incidunt sed officia quis labore sapiente blanditiis impedit quam eveniet? A eius, amet ipsa animi doloremque hic eligendi nemo! Rem dolorum cupiditate delectus amet, exercitationem eius tenetur!
+                    </p>
+                </div>
+                <input type="checkbox" name="chacor" id="chacor3" />
+                <label for="chacor3">Найпопулярніше питання номер №3</label>
+                <div class="acor-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+                <input type="checkbox" name="chacor" id="chacor4" />
+                <label for="chacor4">Найпопулярніше питання номер №4</label>
+                <div class="acor-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolore dolor explicabo enim, inventore excepturi perferendis! Officiis nisi sed perspiciatis iure non, unde pariatur adipisci, provident quibusdam a quia quo at, laudantium tempore dolor totam repudiandae nihil distinctio consequuntur vero.</p>
+                </div>
+                <input type="checkbox" name="chacor" id="chacor5" />
+                <label for="chacor5">Найпопулярніше питання номер №5</label>
+                <div class="acor-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="master">
+        <div class="master-card">
+            <h4 class="master-card-title">Прайслист</h4>
+            <div class="master-price">
+                <div class="master-container">
+                    <button class="look-master-btn" id="myBtn">
+                        <img class="image-master" src="./img/manic-price.jpg" alt="">
+                        <div class="middle-master">
+                            <div class="text-master">ВІДКРИТИ</div>
+                        </div>
+                    </button>
+                </div>
+                <div class="master-container">
+                    <button class="look-master-btn" id="myBtn2">
+                        <img class="image-master" src="./img/pedcrPrice.jpg" alt="">
+                        <div class="middle-master">
+                            <div class="text-master">ВІДКРИТИ</div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <h5>МАНІКЮР<span class="close">&times;</span></h5>
+                        <p>-Комбінований манікюр — 250 ₴</p>
+                        <p>-Апаратний манікюр — 250 ₴</p>
+                        <p>-Зняття гель-лаку + комбінований манікюр — 280 ₴</p>
+                        <p>-Зняття гель-лаку + апаратний манікюр — 280 ₴</p>
+                        <p>-Манікюр + покриття гель-лаком — 400 ₴</p>
+                        <p>-Манікюр + гелева корекція(полігелю) — 500 ₴</p>
+                        <p>-Манікюр + викладний французький — 550 ₴</p>
+                        <a href="./html/prices.html"><span>всі ціни</span></a>
+                    </div>
+                </div>
+                <div id="myModal2" class="modal2">
+                    <div class="modal-content">
+                        <h5>ПЕДИКЮР<span class="close">&times;</span></h5>
+                        <p>Гігієнічний педикюр апаратний:</p>
+                        <p>-Обробка стопи повністю — 250 ₴</p>
+                        <p>-Обробка пальців — 280 ₴</p>
+                        <p>Додатково:</p>
+                        <p>-Покриття гель-лаком + 100 ₴</p>
+                        <p>Медичний педикюр:</p>
+                        <p>-Обробка стопи повністю — 250 ₴</p>
+                        <p>-Обробка пальців — 280 ₴</p>
+                        <p>-Обробка стопи(без обробки пальців) — 250 ₴</p>
+                        <a href="./html/prices.html"><span>всі ціни</span></a>
+                    </div>
+                </div>
+                <h5 class="master-name">Христина Олексюк</h5>
+                <p class="master-position">нейл-майстер</p>
+        </div>
+    </section>
+
+    
+    <section class="reviews-block" id="reviews">
+        <div class="reviews">
+            <div class="reviews-more">
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                        <h4>відгуки від клієнтів</h4>
+                        <p> ★ ★ ★ ★ ★</p>
+                        <q class="mySlides-response">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quod. Sunt quasi perspiciatis eos voluptates ut dignissimos architecto quae, illo exercitationem inventore aliquid, distinctio natus nesciunt totam! Molestias libero dolores doloremque dolorem assumenda natus id quasi earum impedit odit. Consequuntur.
+                        </q>
+                        <p class="author">— Клієнт Один</p>
+                    </div>
+                    <div class="mySlides">
+                        <h4>відгуки від клієнтів</h4>
+                        <p> ★ ★ ★ ★ ★</p>
+                        <q class="mySlides-response">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nisi beatae tenetur, ab, iste quas ad ex ratione cum vel neque nostrum placeat enim eius omnis itaque voluptas rerum ipsam laborum excepturi. Soluta laborum debitis, accusamus vitae ullam doloremque. Pariatur!</q>
+                        <p class="author">— Клієнт Два</p>
+                    </div>
+                    <div class="mySlides">
+                        <h4>відгуки від клієнтів</h4>
+                        <p> ★ ★ ★ ★ ★</p>
+                        <q class="mySlides-response">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus magnam eveniet voluptatum ipsam odio esse fuga hic illum officiis, quas adipisci in laboriosam assumenda, vitae porro culpa? Cupiditate ipsam aperiam dignissimos enim. Minus rem aperiam velit quaerat cum iure optio!</q>
+                        <p class="author">— Клієнт Три</p>
+                    </div>
+                    <div class="mySlides">
+                        <h4>відгуки від клієнтів</h4>
+                        <p> ★ ★ ★ ★ ★</p>
+                        <q class="mySlides-response">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quidem illum esse eius, alias sapiente incidunt excepturi modi totam expedita exercitationem dolorem harum quia consequatur et aspernatur, fugiat culpa temporibus error, quas voluptatem. Dolorum modi voluptatum perferendis? Beatae, dolorum quos. </q>
+                        <p class="author">— Клієнт Чотири</p>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
+                <div class="dot-container">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+            </div>
+
+            <div class="reviews-link">
+                <div class="reviews-link-info">
+                    <div class="container-card">
+                        <div class="container">
+                            <div class="card">
+                                <div class="slide slide1">
+                                    <div class="content">
+                                        <div class="icon">
+                                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide slide2">
+                                    <div class="content">
+                                        <h3>Підпишіться на НАС!</h3>
+                                        <p>Щоб бути в курсі всіх новин!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>   
+        </div>
+    </section>
+
+    <div class="line"></div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-top-inner">
+                    <div class="footer-top-item footer-top-itemdrop">
+                        <h6 class="footer-top-title footer-topdrop">Oleksiuk_Nails</h6>
+                        <ul class="footer-list">
+                            <li class="footer-list-item"><a class="footer-list-item-hov" href="./OleksiukNails.html">Про нас</a></li>
+                            <li class="footer-list-item"><a class="footer-list-item-hov" href="./OleksiukNails.html">Мої роботи</a></li>
+                            <li class="footer-list-item"><a class="footer-list-item-hov" href="./html/prices.html">Ціни</a></li>
+                            <li class="footer-list-item"><a class="footer-list-item-hov" href="./OleksiukNails.html">Відгуки</a></li>
+                            <li class="footer-list-item"><a class="footer-list-item-hov" href="./html/contact.html">Контакти</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-item footer-top-itemdrop">
+                        <h6 class="footer-top-title footer-topdrop">Час роботи:</h6>
+                        <ul class="footer-list">
+                            <li class="footer-list-item"><p class="footer-list-item-text">Пн — 09:00 - 19:00</p></li>
+                            <li class="footer-list-item"><p class="footer-list-item-text">Вт — 09:00 - 19:00</=></li>
+                            <li class="footer-list-item"><p class="footer-list-item-text">Ср — 09:00 - 19:00</=></li>
+                            <li class="footer-list-item"><p class="footer-list-item-text">Чт — 09:00 - 19:00</=></li>
+                            <li class="footer-list-item"><p class="footer-list-item-text">Пт — 09:00 - 19:00</=></li>
+                            <li class="footer-list-item"><p class="footer-list-item-text">Сб — 09:00 - 19:00</=></li>
+                            <li class="footer-list-item"><p class="footer-list-item-text">Нд — вихідний</=></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-item-social">
+                        <ul class="social-list">
+                            <li class="social-list-item">
+                                <a class="facebook" href="#">
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a class="youtube" href="#">
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a class="instagram" href="#">
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a class="google" href="#">
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </footer>
+
+    
+
+    <script src="https://kit.fontawesome.com/ddc6df9d30.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script src="./js/hislide/jquery.hislide.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+</body>
+</html>

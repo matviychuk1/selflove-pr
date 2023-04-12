@@ -74,6 +74,27 @@ window.onclick = function(event) {
     }
 }
 
+var modal2 = document.getElementById("myModal2");
+var btn2 = document.getElementById("myBtn2");
+var span2 = document.getElementsByClassName("close")[1];
+
+btn2.onclick = function() {
+    modal2.style.display = "block";
+}
+
+span2.onclick = function() {
+    modal2.style.display = "none";
+}
+
+window.onclick = function(eventMod) {
+    if (eventMod.target == modal2) {
+    modal2.style.display = "none";
+    }
+}
+
+
+
+
 $('.slide').hiSlide();
 
 
@@ -108,4 +129,16 @@ var swiper = new Swiper(".card_slider", {
         },
     },
 });
+
+function myMap() {
+    var mapCanvas = document.getElementById("map");
+    var mapOptions = {
+      center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+    };
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+  }
+  
+
+
+
 
